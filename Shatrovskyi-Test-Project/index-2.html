@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+	<div id="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="nav">
+					<a class="nav__link" href="#">ГЛАВНАЯ</a>
+					<a class="nav__link" href="#">О КОМПАНИИ</a>
+					<a class="nav__link" href="#">ССЫЛКА 1</a>
+					<a class="nav__link" href="#">ССЫЛКА 2</a>
+					<a class="nav__link" href="#">ССЫЛКА 3</a>
+					<button class="login" onclick="document.getElementById('id01').style.display='block'"><img src="img/Vector Smart Object.png" alt="" class="login__img">ВХОД</button>
+				</div>
+			</div>	
+		</div>
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<img src="img/Test.png" alt="Логотип">
+				</div>
+
+				<div class="header__phones">
+					<a class="number" href="tel:3809817000740">+380 98 170 00 740</a>
+					<a class="number" href="tel:3809817000740">+380 98 170 00 740</a>
+					<button class="call__back" onclick="document.getElementById('id02').style.display='block'" ><img src="img/phone.png" alt="" class="phone__img">Перезвонить мне</button>
+				</div>
+
+				<div class="header__compare">
+					<a class="user__block-nav-link" href="#">
+						<img src="img/sravnenie.png"  alt="" class="user-block-img">
+						<p>Сравнение</p>
+					</a>
+				</div>
+
+				<div class="header__favorites">
+					<a class="user__block-nav-link" href="#">
+						<img src="img/favorites.png"  alt="" class="user-block-img">
+						<p>Избраное</p>
+					</a>					
+				</div>
+
+				<div class="header__basket">
+					<a class="user__block-nav-link" href="#">
+						<img class="b_img1" src="img/basket_1.png" alt="" >
+						<img src="img/basket_main.png"  alt="" class="basket__img">
+						<p>Корзина</p>
+					</a>
+				</div>				
+			</div>
+		</div>
+	</div>
+    <div class="sign__block" id="id01">
+    	<div class="container">
+    		<div class="sign__close">
+    			<div class="close">
+    				<span onclick="document.getElementById('id01').style.display='none'"><img src="img/big__krest.png" alt=""></span>
+    			</div>
+    			<div class="sign">
+    				<div class="sign-in">
+    					<h3>Вход в личный кабинет</h3>
+    					<div class="your__email">
+    						<h5 class="email-password">Ваш email</h5>
+    						<input class="email-password__input" type="text" placeholder="mikel_ivanov98@gmail.com">
+    					</div>
+    					<div class="your_password">
+    						<h5 class="email-password">Ваш пароль</h5>
+    						<input class="email-password__input" type="password" placeholder="**************">
+    					</div>
+    					<div class="check">
+    						<label class="check__id"><input  type="checkbox" name="remember_me" id="check__id" /> Запомнить меня </label>
+    					</div>
+    					<div class="forgot__reg">
+    						<a class="forgot__reg-link" href="#">Забыли пароль?</a>
+    						<a class="forgot__reg-link" href="#">Регистрация</a>
+    					</div>
+    					<div>
+    						<button class="sign-in__button">Войти в личный кабинет</button>
+    					</div>	
+    				</div>
+    				<div class="sign-like">
+    					<h3>Войти с помощью</h3>
+    					<div class="facebook">
+    						<button class="facebook__button" ><img src="img/facebook.png" alt="">Facebook</button>
+    					</div>
+    					<div class="twitter">
+    						<button class="twitter__button" ><img src="img/twitter.png" alt="">Twitter</button>
+    					</div>
+    					<div class="google">
+    						<button class="google__button" ><img src="img/google.png" alt="">Google</button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>		
+    	</div>
+    </div>
+    <div class="call__back__block" id="id02">
+    	<div class="container">
+    		<div class="call__close">
+    			<div class="close">
+    				<span onclick="document.getElementById('id02').style.display='none'"><img src="img/big__krest.png" alt=""></span>
+    			</div>
+    			<div class="call__me" >
+    				<h2>Перезвоните мне</h2>
+    				<h3>Номер телефона</h3>
+    				<input type="text" placeholder="+38(0__) ___ - __ - __">
+    				<button>Перезвонить мне</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	<div id="top">
+		<div class="container">
+			<div class="menu">
+				<div class="menu__block-title">
+					<button><img src="img/menu_icon.png" alt=""></button>
+					<p class="menu-title">Меню</p>
+				</div>
+				
+				<ul>						
+					<li><a class="menu__block-link1" href="#">Ссылка 1</a></li>
+					<li><a class="menu__block-link" href="#">Ссылка 2</a></li>
+					<li><a class="menu__block-link" href="#">Ссылка 3</a></li>
+					<li><a class="menu__block-link" href="#">Ссылка 4</a></li>
+					<li><a class="menu__block-link" href="#">Ссылка 5</a></li>
+					<li><a class="menu__block-link" href="#">Ссылка 6</a></li>
+					<li><a class="menu__block-link" href="#">Ссылка 7</a></li>
+				</ul>
+			</div>
+
+			<div class="search">
+				<form action="" method="get">
+   					<input  type="search" name="s" placeholder="Поиск по сайту">
+   					<button class="submit" type="submit">Поиск</button>
+  				</form>
+    			<button class="all_categories" href="#">Все категории<img src="img/strelka__vniz.png" alt=""></button>
+			</div>
+
+			<div class="search__block">
+
+				<div class="search__block-header">
+					<div class="search__block-header-nav">
+						<a class="block-header-nav-link"  href="#"><img class="img-search-box" src="img/car.png" alt="">Ссылка 1</a>
+						<a class="block-header-nav-link"  href="#"><img class="img-search-box" src="img/big-car.png" alt="">Ссылка 2</a>
+						<a class="block-header-nav-link"  href="#"><img class="img-search-box" src="img/wheel.png" alt="">Ссылка 3</a>
+						<a class="block-header-nav-link"  href="#"><img class="img-search-box" src="img/benz.png" alt="">Ссылка 4</a>
+						<a class="block-header-nav-link"  href="#"><img class="img-search-box" src="img/akum.png" alt="">Ссылка 5</a>
+					</div>	
+				</div>
+
+				<div class="chocie__block">
+					<div class="tab">
+						<button class="tab__buttom">Tab 1</button>
+						<button class="tab__buttom">Tab 2</button>
+					</div>
+					<div class="select__block">
+						<button class="select__block-buttom" href="#">Select 1<img class="select-img" src="img/strelka-vniz2.png"></button>
+						<button class="select__block-buttom" href="#">Select 2<img class="select-img" src="img/strelka-vniz2.png"></button>
+						<button class="select__block-buttom" href="#">Select 3<img class="select-img" src="img/strelka-vniz2.png"></button>
+						<button class="select__block-buttom4" href="#">Select 4<img class="select-img" src="img/strelka-vniz2.png"></button>
+						<button class="select__block-buttom" href="#">Select 5<img class="select-img" src="img/strelka-vniz2.png"></button>
+						<button class="select__block-buttom" href="#">Select 6<img class="select-img" src="img/strelka-vniz2.png"></button>
+						<button class="select__block-buttom" href="#">Select 7<img class="select-img" src="img/strelka-vniz2.png"></button>
+						<p class="price">Цена <input  type="search" name="p" placeholder="50"> <input   type="search" name="p" placeholder="250000"></p>
+					</div>
+					<div class="clear-accept__block">
+						<button class="clear"><img src="img/krest.png" alt="">Очистить фильтр</button>
+						<button class="accept">Применить фильтр</button>
+					</div>	
+				</div>	
+			</div>
+		</div>	
+	</div>
+
+	<div id="main">
+		<div class="container">
+			<div class="main__header">
+				<h3 class="product__cards" >Карточки товаров</h3>
+				<a class="main__header-link" href="">Ссылка в каталог<img src="img/strelka-vpravo-katalog2.png" alt="" class="strelka-vpravo-katalog2"><img src="img/strelka-vpravo-katalog1.png" alt=""></a>
+			</div>
+
+			<div class="main__products">
+
+				<div class="first_second_third_fourth_product">
+
+					<div class="mark">
+						<p>Mark</p>
+					</div>
+
+	
+					<div class="name__product">
+						<a class="name__card" href="#">Антифриз Fosser Antifreeze<br>FA 12 Readymix 1 л Concentrat, Germany</a>
+					</div>
+					
+					<div class="rating__available__rewiew">
+
+						<div class="rating">
+							<span class="active"></span>	
+							<span class="active"></span>    
+							<span class="active"></span>  
+							<span class="active"></span>    
+							<span class="active"></span>
+						</div>					
+						<a class="review" href="#">Отзывы(10)</a>
+						<p class="available" href="#">В наличии:24 шт.</p>	
+					</div>
+
+					<div class="sun__car__new__wheel">
+						<div class="sun__car__new">
+							<div class="sun">
+								<img src="img/sun.png" alt="">
+								<p class="sun-name">Летняя</p>
+							</div>
+							<div class="car">
+								<img src="img/car2.png" alt="">
+								<p class="car-name">Легковая</p>
+							</div>
+							<div class="new">
+								<img src="img/new.png" alt="">
+								<p class="new-name">Новая</p>
+							</div>
+						</div>
+
+						<div class="wheel_main">
+							<img class="wheel" src="img/wheel1.png" alt="">	
+						</div>
+					</div>
+
+					<div class="new__best__sale">
+						<p class="novelty" >Новина</p>
+						<p class="best">Хит</p>
+						<p class="sale">Скидка</p>
+					</div>
+
+					<div class="price__product">
+						<p class="price__product-main"><big>599</big> ГРН.</p>
+						<p class="price__product-sale"><span>1250 ГРН.</span></p>
+					</div>
+
+					<div class="buy__product">
+						<button class="buy__product-button"><img src="img/buy_basket.png" alt="">Купить товар</button>
+					</div>
+
+					<div class="compare__favorites">
+						<a href="#" class="compare"><img src="img/vesi.png" alt="">Сравнить товар</a>
+						
+						<a href="#" class="favorites" ><img src="img/star.png" alt="">В избранное</a>
+					</div>
+				</div>
+				<div class="first_second_third_fourth_product">
+
+					<div class="mark">
+						<p>Mark</p>
+					</div>
+
+	
+					<div class="name__product">
+						<a class="name__card" href="#">Антифриз Fosser Antifreeze<br>FA 12 Readymix 1 л Concentrat, Germany</a>
+					</div>
+					
+					<div class="rating__available__rewiew">
+
+						<div class="rating">
+							<span class="active"></span>	
+							<span class="active"></span>    
+							<span class="active"></span>  
+							<span class=""></span>    
+							<span class=""></span>
+						</div>					
+						<a class="review" href="#">Отзывы(10)</a>
+						<p class="available" href="#">В наличии:24 шт.</p>	
+					</div>
+
+					<div class="sun__car__new__wheel">
+						<div class="sun__car__new">
+							<div class="sun">
+								<img src="img/sun.png" alt="">
+								<p class="sun-name">Летняя</p>
+							</div>
+							
+							<div class="new">
+								<img src="img/new.png" alt="">
+								<p class="new-name">Новая</p>
+							</div>
+						</div>
+
+						<div class="wheel_main2">
+							<img class="wheel2" src="img/wheel2.png" alt="">	
+						</div>
+					</div>
+
+					<div class="new__best__sale2">
+						<p class="novelty">Новина</p>
+						<p class="best">Хит</p>
+						
+					</div>
+
+					<div class="price__product">
+						<p class="price__product-main"><big>599</big> ГРН.</p>
+						<p class="price__product-sale"><span>1250 ГРН.</span></p>
+					</div>
+
+					<div class="buy__product">
+						<button class="buy__product-button"><img src="img/buy_basket.png" alt="">Купить товар</button>
+					</div>
+
+					<div class="compare__favorites">
+						<a href="#" class="compare"><img src="img/vesi.png" alt="">Сравнить товар</a>
+						
+						<a href="#" class="favorites" ><img src="img/star.png" alt="">В избранное</a>
+					</div>
+
+				</div>
+				<div class="first_second_third_fourth_product">
+
+					<div class="mark">
+						<p>Mark</p>
+					</div>
+
+	
+					<div class="name__product">
+						<a class="name__card" href="#">Антифриз Fosser Antifreeze<br>FA 12 Readymix 1 л Concentrat, Germany</a>
+					</div>
+					
+					<div class="rating__available__rewiew">
+
+						<div class="rating">
+							<span class=""></span>	
+							<span class=""></span>   
+							<span class=""></span>  
+							<span class=""></span>    
+							<span class=""></span>
+						</div>					
+						<a class="review" href="#">Без отзывов</a>
+						<p class="available" href="#">В наличии:24 шт.</p>	
+					</div>
+
+					<div class="sun__car__new__wheel">
+						<div class="sun__car__new">
+							<div class="sun">
+								<img src="img/sun.png" alt="">
+								<p class="sun-name">Летняя</p>
+							</div>
+							<div class="car">
+								<img src="img/car2.png" alt="">
+								<p class="car-name">Легковая</p>
+							</div>
+							<div class="new">
+								<img src="img/new.png" alt="">
+								<p class="new-name">Новая</p>
+							</div>
+						</div>
+
+						<div class="wheel_main3">
+							<img class="wheel" src="img/wheel3.png" alt="">	
+						</div>
+					</div>
+
+					<div class="new__best__sale3">
+						<p class="novelty" >Новина</p>
+					</div>
+
+					<div class="price__product">
+						<p class="price__product-main3"><big>9 570</big> ГРН.</p>
+						<p class="price__product-sale3"><span>11 250 ГРН.</span></p>
+					</div>
+
+					<div class="buy__product">
+						<button class="buy__product-button"><img src="img/buy_basket.png" alt="">Купить товар</button>
+					</div>
+
+					<div class="compare__favorites">
+						<a href="#" class="compare"><img src="img/vesi.png" alt="">Сравнить товар</a>
+						
+						<a href="#" class="favorites" ><img src="img/star.png" alt="">В избранное</a>
+					</div>
+
+				</div>
+				<div class="first_second_third_fourth_product">
+
+					<div class="mark">
+						<p>Mark</p>
+					</div>
+
+	
+					<div class="name__product4">
+						<a class="name__card" href="#">Антифриз Fosser Antifreeze</a>
+					</div>
+					
+					<div class="rating__available__rewiew">
+
+						<div class="rating">
+							<span class="active"></span>	
+							<span class="active"></span>    
+							<span class="active"></span>  
+							<span class="active"></span>    
+							<span class="active"></span>
+						</div>					
+						<a class="review" href="#">Отзывы(10)</a>
+						<p class="available" href="#">В наличии:24 шт.</p>	
+					</div>
+
+					<div class="sun__car__new__wheel">
+						<div class="sun__car__new">
+							<div class="sun">
+								<img src="img/sun.png" alt="">
+								<p class="sun-name">Летняя</p>
+							</div>
+							<div class="car">
+								<img src="img/car2.png" alt="">
+								<p class="car-name">Легковая</p>
+							</div>
+						</div>
+
+						<div class="wheel_main4">
+							<img class="wheel" src="img/wheel4.png" alt="">	
+						</div>
+					</div>
+
+					<div class="price__product">
+						<p class="price__product-main4"><big>599</big> ГРН.</p>
+					
+					</div>
+
+					<div class="buy__product">
+						<button class="buy__product-button"><img src="img/buy_basket.png" alt="">Купить товар</button>
+					</div>
+
+					<div class="compare__favorites">
+						<a href="#" class="compare"><img src="img/vesi.png" alt="">Сравнить товар</a>
+						
+						<a href="#" class="favorites" ><img src="img/star.png" alt="">В избранное</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div id="footer">
+		<div class="background__footer">
+			<div class="container">
+				<div class="blocks">
+					<div class="block1">
+						<h4>Блок 1</h4>
+						<p class="p1" >Будьте в курсе новостей и новинок!</p>
+						<p class="p2">Подписывайтесь на рассылку</p>
+						<div class="search2">
+							<form action="">
+							<input type="search" placeholder="Укажите свой e-mail для подписки">
+							<button>Подписаться</button>
+							</form>
+						</div>
+					</div>
+					<div class="block_1_2_3">
+						<div class="block_1">
+							<h4 class="head">Блок ссылок 1</h4>
+							<ul>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 1</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 2</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 3</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 4</a></li>
+							</ul>
+						</div>
+						<div class="block_2">
+							<h4 class="head">Блок 2</h4>
+							<ul>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 1</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 2</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 3</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 4</a></li>
+							</ul>
+						</div>	
+						<div class="block_3">
+							<h4 class="head">Блок ссылок 3</h4>
+							<ul>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 1</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 2</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 3</a></li>
+								<li><a class="block_1_2_3-link" href="#">Ссылка 4</a></li>
+							</ul>
+						</div>		
+					</div>
+				</div>
+				<div class="footer__footer">
+					<img class="footer-test" src="img/footer-Test.png" alt="">
+					<p class="copyrith">© Copyrith 2017. Тестовое задание Wezom</p>
+					<img class="vk-img" src="img/vk.png" alt="">
+					<img class="facebook-img" src="img/facebook.png" alt="">
+					<img class="twitter-img" src="img/twitter.png" alt="">
+					<img class="youtube-img" src="img/youtube.png" alt="">
+					<img class="wezom" src="img/wezom.png" alt="">
+					<span><p class="develop_test">Разроботка тестового</p><p class="agency">Wezom Agency</p></span>
+					
+				</div>
+			</div>
+		</div>		
+	</div>
+	<script>
+		var sign__block = document.getElementById('id01');
+		window.onclick = function(event) {
+    		if (event.target == sign__block) {
+        		sign__block.style.display = "none";
+    		}
+		}
+	</script>
+</body>
+</html>
